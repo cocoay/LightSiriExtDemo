@@ -1,0 +1,1150 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4600470023C5CF4900C07661 /* LightKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 460046FE23C5CF4900C07661 /* LightKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4600470423C5CF6200C07661 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 46D4652923C5BDFB0060BAFB /* Intents.intentdefinition */; };
+		4600470523C5CF8100C07661 /* LightKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 460046FC23C5CF4900C07661 /* LightKit.framework */; };
+		4600470623C5CF8100C07661 /* LightKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 460046FC23C5CF4900C07661 /* LightKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4600470923C5CF8700C07661 /* LightKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 460046FC23C5CF4900C07661 /* LightKit.framework */; };
+		4600470A23C5CF8700C07661 /* LightKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 460046FC23C5CF4900C07661 /* LightKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4600470D23C5D34200C07661 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 46D4652923C5BDFB0060BAFB /* Intents.intentdefinition */; settings = {ATTRIBUTES = (no_codegen, ); }; };
+		4600470E23C5D34300C07661 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 46D4652923C5BDFB0060BAFB /* Intents.intentdefinition */; settings = {ATTRIBUTES = (no_codegen, ); }; };
+		4600470F23C5D51B00C07661 /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4623A40D23C5CC84007CB706 /* Intents.framework */; };
+		4600471023C5D5BB00C07661 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 46D4652923C5BDFB0060BAFB /* Intents.intentdefinition */; settings = {ATTRIBUTES = (no_codegen, ); }; };
+		4600471123C5DA9B00C07661 /* LightExt.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 46D4653D23C5BEA60060BAFB /* LightExt.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4623A41523C5CE0B007CB706 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4623A40B23C5CC79007CB706 /* IntentsUI.framework */; platformFilter = ios; };
+		46D464AA23C5BBC70060BAFB /* MDConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 46D464A923C5BBC70060BAFB /* MDConfig.plist */; };
+		46D464B423C5BBC70060BAFB /* libYZSiriLightDylib.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D464B323C5BBC70060BAFB /* libYZSiriLightDylib.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		46D464B923C5BBC70060BAFB /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46D464B823C5BBC70060BAFB /* JavaScriptCore.framework */; };
+		46D464BB23C5BBC70060BAFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46D464BA23C5BBC70060BAFB /* Foundation.framework */; };
+		46D464BD23C5BBC70060BAFB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46D464BC23C5BBC70060BAFB /* UIKit.framework */; };
+		46D464C223C5BBC70060BAFB /* YZSiriLightDylib.mm in Sources */ = {isa = PBXBuildFile; fileRef = 46D464C123C5BBC70060BAFB /* YZSiriLightDylib.mm */; };
+		46D464C523C5BBC70060BAFB /* MDConfigManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 46D464C423C5BBC70060BAFB /* MDConfigManager.h */; };
+		46D464C723C5BBC70060BAFB /* MDConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D464C623C5BBC70060BAFB /* MDConfigManager.m */; };
+		46D464C923C5BBC70060BAFB /* MDCycriptManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 46D464C823C5BBC70060BAFB /* MDCycriptManager.h */; };
+		46D464CB23C5BBC70060BAFB /* MDCycriptManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D464CA23C5BBC70060BAFB /* MDCycriptManager.m */; };
+		46D464CD23C5BBC70060BAFB /* MDMethodTrace.h in Headers */ = {isa = PBXBuildFile; fileRef = 46D464CC23C5BBC70060BAFB /* MDMethodTrace.h */; };
+		46D464CF23C5BBC70060BAFB /* MDMethodTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D464CE23C5BBC70060BAFB /* MDMethodTrace.m */; };
+		46D464D223C5BBC70060BAFB /* a1a2-selectortramps-arm.s in Sources */ = {isa = PBXBuildFile; fileRef = 46D464D123C5BBC70060BAFB /* a1a2-selectortramps-arm.s */; };
+		46D464D423C5BBC70060BAFB /* a1a2-selectortramps-arm64.s in Sources */ = {isa = PBXBuildFile; fileRef = 46D464D323C5BBC70060BAFB /* a1a2-selectortramps-arm64.s */; };
+		46D464D623C5BBC70060BAFB /* a1a2-selectortramps-i386.s in Sources */ = {isa = PBXBuildFile; fileRef = 46D464D523C5BBC70060BAFB /* a1a2-selectortramps-i386.s */; };
+		46D464D823C5BBC70060BAFB /* a1a2-selectortramps-x86_64.s in Sources */ = {isa = PBXBuildFile; fileRef = 46D464D723C5BBC70060BAFB /* a1a2-selectortramps-x86_64.s */; };
+		46D464DA23C5BBC70060BAFB /* a2a3-selectortramps-arm.s in Sources */ = {isa = PBXBuildFile; fileRef = 46D464D923C5BBC70060BAFB /* a2a3-selectortramps-arm.s */; };
+		46D464DC23C5BBC70060BAFB /* a2a3-selectortramps-i386.s in Sources */ = {isa = PBXBuildFile; fileRef = 46D464DB23C5BBC70060BAFB /* a2a3-selectortramps-i386.s */; };
+		46D464DE23C5BBC70060BAFB /* a2a3-selectortramps-x86_64.s in Sources */ = {isa = PBXBuildFile; fileRef = 46D464DD23C5BBC70060BAFB /* a2a3-selectortramps-x86_64.s */; };
+		46D464E023C5BBC70060BAFB /* OCMethodTrace.h in Headers */ = {isa = PBXBuildFile; fileRef = 46D464DF23C5BBC70060BAFB /* OCMethodTrace.h */; };
+		46D464E223C5BBC70060BAFB /* OCMethodTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D464E123C5BBC70060BAFB /* OCMethodTrace.m */; };
+		46D464E423C5BBC70060BAFB /* OCSelectorTrampolines.h in Headers */ = {isa = PBXBuildFile; fileRef = 46D464E323C5BBC70060BAFB /* OCSelectorTrampolines.h */; };
+		46D464E623C5BBC70060BAFB /* OCSelectorTrampolines.mm in Sources */ = {isa = PBXBuildFile; fileRef = 46D464E523C5BBC70060BAFB /* OCSelectorTrampolines.mm */; };
+		46D464EA23C5BBC70060BAFB /* LLDBTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 46D464E923C5BBC70060BAFB /* LLDBTools.h */; };
+		46D464EC23C5BBC70060BAFB /* LLDBTools.mm in Sources */ = {isa = PBXBuildFile; fileRef = 46D464EB23C5BBC70060BAFB /* LLDBTools.mm */; };
+		46D464F123C5BBC70060BAFB /* AntiAntiDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D464F023C5BBC70060BAFB /* AntiAntiDebug.m */; };
+		46D464F423C5BBC70060BAFB /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 46D464F323C5BBC70060BAFB /* fishhook.c */; };
+		46D464F623C5BBC70060BAFB /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = 46D464F523C5BBC70060BAFB /* fishhook.h */; };
+		46D464F823C5BBC70060BAFB /* YZSiriLightDylib.h in Headers */ = {isa = PBXBuildFile; fileRef = 46D464F723C5BBC70060BAFB /* YZSiriLightDylib.h */; };
+		46D464FA23C5BBC70060BAFB /* YZSiriLightDylib.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D464F923C5BBC70060BAFB /* YZSiriLightDylib.m */; };
+		46D4654123C5BEA60060BAFB /* IntentHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D4654023C5BEA60060BAFB /* IntentHandler.m */; };
+		46D4656F23C5C4690060BAFB /* LightIntentHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D4656E23C5C4690060BAFB /* LightIntentHandler.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4600470723C5CF8100C07661 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46D4649723C5BBC70060BAFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 460046FB23C5CF4900C07661;
+			remoteInfo = LightKit;
+		};
+		4600470B23C5CF8700C07661 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46D4649723C5BBC70060BAFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 460046FB23C5CF4900C07661;
+			remoteInfo = LightKit;
+		};
+		4600471223C5DA9B00C07661 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46D4649723C5BBC70060BAFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46D4653C23C5BEA60060BAFB;
+			remoteInfo = LightExt;
+		};
+		46D464B523C5BBC70060BAFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46D4649723C5BBC70060BAFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46D464B223C5BBC70060BAFB;
+			remoteInfo = YZSiriLightDylib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4600471423C5DA9B00C07661 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4600471123C5DA9B00C07661 /* LightExt.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D4649F23C5BBC70060BAFB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				46D464B423C5BBC70060BAFB /* libYZSiriLightDylib.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D4655423C5BF8B0060BAFB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4600470A23C5CF8700C07661 /* LightKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D4657E23C5C5630060BAFB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4600470623C5CF8100C07661 /* LightKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		460046FC23C5CF4900C07661 /* LightKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LightKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		460046FE23C5CF4900C07661 /* LightKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LightKit.h; sourceTree = "<group>"; };
+		460046FF23C5CF4900C07661 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4623A40B23C5CC79007CB706 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		4623A40D23C5CC84007CB706 /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Intents.framework; sourceTree = DEVELOPER_DIR; };
+		4623A40F23C5CCC1007CB706 /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
+		46D464A223C5BBC70060BAFB /* YZSiriLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YZSiriLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46D464A523C5BBC70060BAFB /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		46D464A723C5BBC70060BAFB /* quick-resign.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "quick-resign.sh"; sourceTree = "<group>"; };
+		46D464A923C5BBC70060BAFB /* MDConfig.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = MDConfig.plist; sourceTree = "<group>"; };
+		46D464AC23C5BBC70060BAFB /* put ipa or app here */ = {isa = PBXFileReference; lastKnownFileType = text; path = "put ipa or app here"; sourceTree = "<group>"; };
+		46D464AD23C5BBC70060BAFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46D464B323C5BBC70060BAFB /* libYZSiriLightDylib.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libYZSiriLightDylib.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		46D464B823C5BBC70060BAFB /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		46D464BA23C5BBC70060BAFB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		46D464BC23C5BBC70060BAFB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		46D464C023C5BBC70060BAFB /* YZSiriLightDylib.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = YZSiriLightDylib.xm; sourceTree = "<group>"; };
+		46D464C123C5BBC70060BAFB /* YZSiriLightDylib.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = YZSiriLightDylib.mm; sourceTree = "<group>"; };
+		46D464C423C5BBC70060BAFB /* MDConfigManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDConfigManager.h; sourceTree = "<group>"; };
+		46D464C623C5BBC70060BAFB /* MDConfigManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDConfigManager.m; sourceTree = "<group>"; };
+		46D464C823C5BBC70060BAFB /* MDCycriptManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDCycriptManager.h; sourceTree = "<group>"; };
+		46D464CA23C5BBC70060BAFB /* MDCycriptManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDCycriptManager.m; sourceTree = "<group>"; };
+		46D464CC23C5BBC70060BAFB /* MDMethodTrace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDMethodTrace.h; sourceTree = "<group>"; };
+		46D464CE23C5BBC70060BAFB /* MDMethodTrace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDMethodTrace.m; sourceTree = "<group>"; };
+		46D464D123C5BBC70060BAFB /* a1a2-selectortramps-arm.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = "a1a2-selectortramps-arm.s"; sourceTree = "<group>"; };
+		46D464D323C5BBC70060BAFB /* a1a2-selectortramps-arm64.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = "a1a2-selectortramps-arm64.s"; sourceTree = "<group>"; };
+		46D464D523C5BBC70060BAFB /* a1a2-selectortramps-i386.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = "a1a2-selectortramps-i386.s"; sourceTree = "<group>"; };
+		46D464D723C5BBC70060BAFB /* a1a2-selectortramps-x86_64.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = "a1a2-selectortramps-x86_64.s"; sourceTree = "<group>"; };
+		46D464D923C5BBC70060BAFB /* a2a3-selectortramps-arm.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = "a2a3-selectortramps-arm.s"; sourceTree = "<group>"; };
+		46D464DB23C5BBC70060BAFB /* a2a3-selectortramps-i386.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = "a2a3-selectortramps-i386.s"; sourceTree = "<group>"; };
+		46D464DD23C5BBC70060BAFB /* a2a3-selectortramps-x86_64.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = "a2a3-selectortramps-x86_64.s"; sourceTree = "<group>"; };
+		46D464DF23C5BBC70060BAFB /* OCMethodTrace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMethodTrace.h; sourceTree = "<group>"; };
+		46D464E123C5BBC70060BAFB /* OCMethodTrace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCMethodTrace.m; sourceTree = "<group>"; };
+		46D464E323C5BBC70060BAFB /* OCSelectorTrampolines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCSelectorTrampolines.h; sourceTree = "<group>"; };
+		46D464E523C5BBC70060BAFB /* OCSelectorTrampolines.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = OCSelectorTrampolines.mm; sourceTree = "<group>"; };
+		46D464E723C5BBC70060BAFB /* selectortramps.mac */ = {isa = PBXFileReference; lastKnownFileType = text; path = selectortramps.mac; sourceTree = "<group>"; };
+		46D464E923C5BBC70060BAFB /* LLDBTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLDBTools.h; sourceTree = "<group>"; };
+		46D464EB23C5BBC70060BAFB /* LLDBTools.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = LLDBTools.mm; sourceTree = "<group>"; };
+		46D464EE23C5BBC70060BAFB /* YZSiriLightDylib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "YZSiriLightDylib-Prefix.pch"; path = "../YZSiriLightDylib-Prefix.pch"; sourceTree = "<group>"; };
+		46D464F023C5BBC70060BAFB /* AntiAntiDebug.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AntiAntiDebug.m; sourceTree = "<group>"; };
+		46D464F323C5BBC70060BAFB /* fishhook.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fishhook.c; sourceTree = "<group>"; };
+		46D464F523C5BBC70060BAFB /* fishhook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
+		46D464F723C5BBC70060BAFB /* YZSiriLightDylib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZSiriLightDylib.h; sourceTree = "<group>"; };
+		46D464F923C5BBC70060BAFB /* YZSiriLightDylib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZSiriLightDylib.m; sourceTree = "<group>"; };
+		46D4652923C5BDFB0060BAFB /* Intents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
+		46D4653D23C5BEA60060BAFB /* LightExt.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LightExt.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		46D4653F23C5BEA60060BAFB /* IntentHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntentHandler.h; sourceTree = "<group>"; };
+		46D4654023C5BEA60060BAFB /* IntentHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntentHandler.m; sourceTree = "<group>"; };
+		46D4654223C5BEA60060BAFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46D4656D23C5C4690060BAFB /* LightIntentHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LightIntentHandler.h; sourceTree = "<group>"; };
+		46D4656E23C5C4690060BAFB /* LightIntentHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightIntentHandler.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		460046F923C5CF4900C07661 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D4649C23C5BBC70060BAFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D464B023C5BBC70060BAFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4600470F23C5D51B00C07661 /* Intents.framework in Frameworks */,
+				4600470523C5CF8100C07661 /* LightKit.framework in Frameworks */,
+				46D464B923C5BBC70060BAFB /* JavaScriptCore.framework in Frameworks */,
+				46D464BD23C5BBC70060BAFB /* UIKit.framework in Frameworks */,
+				4623A41523C5CE0B007CB706 /* IntentsUI.framework in Frameworks */,
+				46D464BB23C5BBC70060BAFB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D4653A23C5BEA60060BAFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4600470923C5CF8700C07661 /* LightKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		460046FD23C5CF4900C07661 /* LightKit */ = {
+			isa = PBXGroup;
+			children = (
+				460046FE23C5CF4900C07661 /* LightKit.h */,
+				460046FF23C5CF4900C07661 /* Info.plist */,
+			);
+			path = LightKit;
+			sourceTree = "<group>";
+		};
+		46D4649623C5BBC70060BAFB = {
+			isa = PBXGroup;
+			children = (
+				46D4652923C5BDFB0060BAFB /* Intents.intentdefinition */,
+				46D464A423C5BBC70060BAFB /* YZSiriLight */,
+				46D464BE23C5BBC70060BAFB /* YZSiriLightDylib */,
+				46D4653E23C5BEA60060BAFB /* LightExt */,
+				460046FD23C5CF4900C07661 /* LightKit */,
+				46D464B723C5BBC70060BAFB /* Frameworks */,
+				46D464A323C5BBC70060BAFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46D464A323C5BBC70060BAFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46D464A223C5BBC70060BAFB /* YZSiriLight.app */,
+				46D464B323C5BBC70060BAFB /* libYZSiriLightDylib.dylib */,
+				46D4653D23C5BEA60060BAFB /* LightExt.appex */,
+				460046FC23C5CF4900C07661 /* LightKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46D464A423C5BBC70060BAFB /* YZSiriLight */ = {
+			isa = PBXGroup;
+			children = (
+				46D464A523C5BBC70060BAFB /* icon.png */,
+				46D464AD23C5BBC70060BAFB /* Info.plist */,
+				46D464A623C5BBC70060BAFB /* Scripts */,
+				46D464A823C5BBC70060BAFB /* Config */,
+				46D464AB23C5BBC70060BAFB /* TargetApp */,
+			);
+			path = YZSiriLight;
+			sourceTree = "<group>";
+		};
+		46D464A623C5BBC70060BAFB /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				46D464A723C5BBC70060BAFB /* quick-resign.sh */,
+			);
+			path = Scripts;
+			sourceTree = "<group>";
+		};
+		46D464A823C5BBC70060BAFB /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				46D464A923C5BBC70060BAFB /* MDConfig.plist */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		46D464AB23C5BBC70060BAFB /* TargetApp */ = {
+			isa = PBXGroup;
+			children = (
+				46D464AC23C5BBC70060BAFB /* put ipa or app here */,
+			);
+			path = TargetApp;
+			sourceTree = "<group>";
+		};
+		46D464B723C5BBC70060BAFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4623A40D23C5CC84007CB706 /* Intents.framework */,
+				4623A40F23C5CCC1007CB706 /* Intents.framework */,
+				4623A40B23C5CC79007CB706 /* IntentsUI.framework */,
+				46D464B823C5BBC70060BAFB /* JavaScriptCore.framework */,
+				46D464BA23C5BBC70060BAFB /* Foundation.framework */,
+				46D464BC23C5BBC70060BAFB /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		46D464BE23C5BBC70060BAFB /* YZSiriLightDylib */ = {
+			isa = PBXGroup;
+			children = (
+				46D464F723C5BBC70060BAFB /* YZSiriLightDylib.h */,
+				46D464F923C5BBC70060BAFB /* YZSiriLightDylib.m */,
+				46D464BF23C5BBC70060BAFB /* Logos */,
+				46D464C323C5BBC70060BAFB /* Config */,
+				46D464D023C5BBC70060BAFB /* Trace */,
+				46D464E823C5BBC70060BAFB /* Tools */,
+				46D464EF23C5BBC70060BAFB /* AntiAntiDebug */,
+				46D464F223C5BBC70060BAFB /* fishhook */,
+				46D464ED23C5BBC70060BAFB /* Supporting Files */,
+			);
+			path = YZSiriLightDylib;
+			sourceTree = "<group>";
+		};
+		46D464BF23C5BBC70060BAFB /* Logos */ = {
+			isa = PBXGroup;
+			children = (
+				46D464C023C5BBC70060BAFB /* YZSiriLightDylib.xm */,
+				46D464C123C5BBC70060BAFB /* YZSiriLightDylib.mm */,
+			);
+			path = Logos;
+			sourceTree = "<group>";
+		};
+		46D464C323C5BBC70060BAFB /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				46D464C423C5BBC70060BAFB /* MDConfigManager.h */,
+				46D464C623C5BBC70060BAFB /* MDConfigManager.m */,
+				46D464C823C5BBC70060BAFB /* MDCycriptManager.h */,
+				46D464CA23C5BBC70060BAFB /* MDCycriptManager.m */,
+				46D464CC23C5BBC70060BAFB /* MDMethodTrace.h */,
+				46D464CE23C5BBC70060BAFB /* MDMethodTrace.m */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		46D464D023C5BBC70060BAFB /* Trace */ = {
+			isa = PBXGroup;
+			children = (
+				46D464D123C5BBC70060BAFB /* a1a2-selectortramps-arm.s */,
+				46D464D323C5BBC70060BAFB /* a1a2-selectortramps-arm64.s */,
+				46D464D523C5BBC70060BAFB /* a1a2-selectortramps-i386.s */,
+				46D464D723C5BBC70060BAFB /* a1a2-selectortramps-x86_64.s */,
+				46D464D923C5BBC70060BAFB /* a2a3-selectortramps-arm.s */,
+				46D464DB23C5BBC70060BAFB /* a2a3-selectortramps-i386.s */,
+				46D464DD23C5BBC70060BAFB /* a2a3-selectortramps-x86_64.s */,
+				46D464DF23C5BBC70060BAFB /* OCMethodTrace.h */,
+				46D464E123C5BBC70060BAFB /* OCMethodTrace.m */,
+				46D464E323C5BBC70060BAFB /* OCSelectorTrampolines.h */,
+				46D464E523C5BBC70060BAFB /* OCSelectorTrampolines.mm */,
+				46D464E723C5BBC70060BAFB /* selectortramps.mac */,
+			);
+			path = Trace;
+			sourceTree = "<group>";
+		};
+		46D464E823C5BBC70060BAFB /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				46D464E923C5BBC70060BAFB /* LLDBTools.h */,
+				46D464EB23C5BBC70060BAFB /* LLDBTools.mm */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		46D464ED23C5BBC70060BAFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				46D464EE23C5BBC70060BAFB /* YZSiriLightDylib-Prefix.pch */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		46D464EF23C5BBC70060BAFB /* AntiAntiDebug */ = {
+			isa = PBXGroup;
+			children = (
+				46D464F023C5BBC70060BAFB /* AntiAntiDebug.m */,
+			);
+			path = AntiAntiDebug;
+			sourceTree = "<group>";
+		};
+		46D464F223C5BBC70060BAFB /* fishhook */ = {
+			isa = PBXGroup;
+			children = (
+				46D464F323C5BBC70060BAFB /* fishhook.c */,
+				46D464F523C5BBC70060BAFB /* fishhook.h */,
+			);
+			path = fishhook;
+			sourceTree = "<group>";
+		};
+		46D4653E23C5BEA60060BAFB /* LightExt */ = {
+			isa = PBXGroup;
+			children = (
+				46D4653F23C5BEA60060BAFB /* IntentHandler.h */,
+				46D4654023C5BEA60060BAFB /* IntentHandler.m */,
+				46D4656D23C5C4690060BAFB /* LightIntentHandler.h */,
+				46D4656E23C5C4690060BAFB /* LightIntentHandler.m */,
+				46D4654223C5BEA60060BAFB /* Info.plist */,
+			);
+			path = LightExt;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		460046F723C5CF4900C07661 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4600470023C5CF4900C07661 /* LightKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D464B123C5BBC70060BAFB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D464C923C5BBC70060BAFB /* MDCycriptManager.h in Headers */,
+				46D464CD23C5BBC70060BAFB /* MDMethodTrace.h in Headers */,
+				46D464F623C5BBC70060BAFB /* fishhook.h in Headers */,
+				46D464EA23C5BBC70060BAFB /* LLDBTools.h in Headers */,
+				46D464C523C5BBC70060BAFB /* MDConfigManager.h in Headers */,
+				46D464E423C5BBC70060BAFB /* OCSelectorTrampolines.h in Headers */,
+				46D464F823C5BBC70060BAFB /* YZSiriLightDylib.h in Headers */,
+				46D464E023C5BBC70060BAFB /* OCMethodTrace.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		460046FB23C5CF4900C07661 /* LightKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4600470123C5CF4900C07661 /* Build configuration list for PBXNativeTarget "LightKit" */;
+			buildPhases = (
+				460046F723C5CF4900C07661 /* Headers */,
+				460046F823C5CF4900C07661 /* Sources */,
+				460046F923C5CF4900C07661 /* Frameworks */,
+				460046FA23C5CF4900C07661 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LightKit;
+			productName = LightKit;
+			productReference = 460046FC23C5CF4900C07661 /* LightKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		46D464A123C5BBC70060BAFB /* YZSiriLight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46D4650023C5BBC70060BAFB /* Build configuration list for PBXNativeTarget "YZSiriLight" */;
+			buildPhases = (
+				46D4649B23C5BBC70060BAFB /* Sources */,
+				46D4649C23C5BBC70060BAFB /* Frameworks */,
+				46D4649D23C5BBC70060BAFB /* ShellScript */,
+				46D4649E23C5BBC70060BAFB /* Resources */,
+				46D4649F23C5BBC70060BAFB /* CopyFiles */,
+				46D464A023C5BBC70060BAFB /* ShellScript */,
+				4600471423C5DA9B00C07661 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46D464B623C5BBC70060BAFB /* PBXTargetDependency */,
+				4600471323C5DA9B00C07661 /* PBXTargetDependency */,
+			);
+			name = YZSiriLight;
+			productName = YZSiriLight;
+			productReference = 46D464A223C5BBC70060BAFB /* YZSiriLight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46D464B223C5BBC70060BAFB /* YZSiriLightDylib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46D464FD23C5BBC70060BAFB /* Build configuration list for PBXNativeTarget "YZSiriLightDylib" */;
+			buildPhases = (
+				46D464AE23C5BBC70060BAFB /* ShellScript */,
+				46D464AF23C5BBC70060BAFB /* Sources */,
+				46D464B023C5BBC70060BAFB /* Frameworks */,
+				46D464B123C5BBC70060BAFB /* Headers */,
+				46D4657E23C5C5630060BAFB /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4600470823C5CF8100C07661 /* PBXTargetDependency */,
+			);
+			name = YZSiriLightDylib;
+			productName = YZSiriLightDylib;
+			productReference = 46D464B323C5BBC70060BAFB /* libYZSiriLightDylib.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		46D4653C23C5BEA60060BAFB /* LightExt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46D4654323C5BEA60060BAFB /* Build configuration list for PBXNativeTarget "LightExt" */;
+			buildPhases = (
+				46D4653923C5BEA60060BAFB /* Sources */,
+				46D4653A23C5BEA60060BAFB /* Frameworks */,
+				46D4653B23C5BEA60060BAFB /* Resources */,
+				46D4655423C5BF8B0060BAFB /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4600470C23C5CF8700C07661 /* PBXTargetDependency */,
+			);
+			name = LightExt;
+			productName = LightExt;
+			productReference = 46D4653D23C5BEA60060BAFB /* LightExt.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46D4649723C5BBC70060BAFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = Cocoa;
+				TargetAttributes = {
+					460046FB23C5CF4900C07661 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					46D464A123C5BBC70060BAFB = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					46D464B223C5BBC70060BAFB = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					46D4653C23C5BEA60060BAFB = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 46D4649A23C5BBC70060BAFB /* Build configuration list for PBXProject "YZSiriLight" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46D4649623C5BBC70060BAFB;
+			productRefGroup = 46D464A323C5BBC70060BAFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46D464A123C5BBC70060BAFB /* YZSiriLight */,
+				46D464B223C5BBC70060BAFB /* YZSiriLightDylib */,
+				46D4653C23C5BEA60060BAFB /* LightExt */,
+				460046FB23C5CF4900C07661 /* LightKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		460046FA23C5CF4900C07661 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D4649E23C5BBC70060BAFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D464AA23C5BBC70060BAFB /* MDConfig.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D4653B23C5BEA60060BAFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46D4649D23C5BBC70060BAFB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = /opt/MonkeyDev/Tools/pack.sh;
+		};
+		46D464A023C5BBC70060BAFB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/Tools/pack.sh codesign";
+		};
+		46D464AE23C5BBC70060BAFB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/bin/md --xcbp-logos";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		460046F823C5CF4900C07661 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4600470423C5CF6200C07661 /* Intents.intentdefinition in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D4649B23C5BBC70060BAFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4600471023C5D5BB00C07661 /* Intents.intentdefinition in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D464AF23C5BBC70060BAFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D464CB23C5BBC70060BAFB /* MDCycriptManager.m in Sources */,
+				46D464D423C5BBC70060BAFB /* a1a2-selectortramps-arm64.s in Sources */,
+				46D464D223C5BBC70060BAFB /* a1a2-selectortramps-arm.s in Sources */,
+				46D464D823C5BBC70060BAFB /* a1a2-selectortramps-x86_64.s in Sources */,
+				46D464E223C5BBC70060BAFB /* OCMethodTrace.m in Sources */,
+				46D464C723C5BBC70060BAFB /* MDConfigManager.m in Sources */,
+				46D464F423C5BBC70060BAFB /* fishhook.c in Sources */,
+				46D464F123C5BBC70060BAFB /* AntiAntiDebug.m in Sources */,
+				46D464FA23C5BBC70060BAFB /* YZSiriLightDylib.m in Sources */,
+				46D464E623C5BBC70060BAFB /* OCSelectorTrampolines.mm in Sources */,
+				46D464D623C5BBC70060BAFB /* a1a2-selectortramps-i386.s in Sources */,
+				46D464DC23C5BBC70060BAFB /* a2a3-selectortramps-i386.s in Sources */,
+				4600470D23C5D34200C07661 /* Intents.intentdefinition in Sources */,
+				46D464DA23C5BBC70060BAFB /* a2a3-selectortramps-arm.s in Sources */,
+				46D464C223C5BBC70060BAFB /* YZSiriLightDylib.mm in Sources */,
+				46D464EC23C5BBC70060BAFB /* LLDBTools.mm in Sources */,
+				46D464DE23C5BBC70060BAFB /* a2a3-selectortramps-x86_64.s in Sources */,
+				46D464CF23C5BBC70060BAFB /* MDMethodTrace.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D4653923C5BEA60060BAFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4600470E23C5D34300C07661 /* Intents.intentdefinition in Sources */,
+				46D4656F23C5C4690060BAFB /* LightIntentHandler.m in Sources */,
+				46D4654123C5BEA60060BAFB /* IntentHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4600470823C5CF8100C07661 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 460046FB23C5CF4900C07661 /* LightKit */;
+			targetProxy = 4600470723C5CF8100C07661 /* PBXContainerItemProxy */;
+		};
+		4600470C23C5CF8700C07661 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 460046FB23C5CF4900C07661 /* LightKit */;
+			targetProxy = 4600470B23C5CF8700C07661 /* PBXContainerItemProxy */;
+		};
+		4600471323C5DA9B00C07661 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46D4653C23C5BEA60060BAFB /* LightExt */;
+			targetProxy = 4600471223C5DA9B00C07661 /* PBXContainerItemProxy */;
+		};
+		46D464B623C5BBC70060BAFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46D464B223C5BBC70060BAFB /* YZSiriLightDylib */;
+			targetProxy = 46D464B523C5BBC70060BAFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4600470223C5CF4900C07661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = NO;
+				DEVELOPMENT_TEAM = FUQW33P85T;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LightKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zougefan.YZSiriLight.LightKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4600470323C5CF4900C07661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = NO;
+				DEVELOPMENT_TEAM = FUQW33P85T;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LightKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zougefan.YZSiriLight.LightKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		46D464FB23C5BBC70060BAFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		46D464FC23C5BBC70060BAFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46D464FE23C5BBC70060BAFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FUQW33P85T;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks/**",
+					"$(MonkeyDevPath)/Librarys/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YZSiriLightDylib/YZSiriLightDylib-Prefix.pch";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = "@executable_path/Frameworks/libYZSiriLightDylib.dylib";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks",
+					"$(MonkeyDevTheosPath)/vendor/lib/**",
+				);
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DTHEOS_INSTANCE_NAME=\"\\\"YZSiriLightDylib\\\"\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-weak_library",
+					"/usr/lib/libc++.dylib",
+					"-weak_library",
+					"/usr/lib/libstdc++.dylib",
+					"-weak_library",
+					"$(MonkeyDevPath)/Frameworks/libsubstrate.dylib",
+					"-lcycript",
+					"-framework",
+					RevealServer,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		46D464FF23C5BBC70060BAFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = FUQW33P85T;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks/**",
+					"$(MonkeyDevPath)/Librarys/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YZSiriLightDylib/YZSiriLightDylib-Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = "@executable_path/Frameworks/libYZSiriLightDylib.dylib";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks",
+					"$(MonkeyDevTheosPath)/vendor/lib/**",
+				);
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DTHEOS_INSTANCE_NAME=\"\\\"YZSiriLightDylib\\\"\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-weak_library",
+					"/usr/lib/libc++.dylib",
+					"-weak_library",
+					"/usr/lib/libstdc++.dylib",
+					"-weak_library",
+					"$(MonkeyDevPath)/Frameworks/libsubstrate.dylib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		46D4650123C5BBC70060BAFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 6W33K7XR5B;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = YZSiriLight/Info.plist;
+				MONKEYDEV_ADD_SUBSTRATE = YES;
+				MONKEYDEV_CLASS_DUMP = NO;
+				MONKEYDEV_DEFAULT_BUNDLEID = NO;
+				MONKEYDEV_INSERT_DYLIB = YES;
+				MONKEYDEV_RESTORE_SYMBOL = NO;
+				MONKEYDEV_TARGET_APP = Optional;
+				PODS_CONFIGURATION_BUILD_DIR = "$BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zougefan.YZSiriLight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Development_iOS_TestAll;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46D4650223C5BBC70060BAFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 6W33K7XR5B;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = YZSiriLight/Info.plist;
+				MONKEYDEV_ADD_SUBSTRATE = YES;
+				MONKEYDEV_CLASS_DUMP = NO;
+				MONKEYDEV_DEFAULT_BUNDLEID = NO;
+				MONKEYDEV_INSERT_DYLIB = YES;
+				MONKEYDEV_RESTORE_SYMBOL = NO;
+				MONKEYDEV_TARGET_APP = Optional;
+				PODS_CONFIGURATION_BUILD_DIR = "$BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zougefan.YZSiriLight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Development_iOS_TestAll;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		46D4654423C5BEA60060BAFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 6W33K7XR5B;
+				INFOPLIST_FILE = LightExt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zougefan.YZSiriLight.LightExt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Development_iOS_TestAll;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46D4654523C5BEA60060BAFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 6W33K7XR5B;
+				INFOPLIST_FILE = LightExt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zougefan.YZSiriLight.LightExt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Development_iOS_TestAll;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4600470123C5CF4900C07661 /* Build configuration list for PBXNativeTarget "LightKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4600470223C5CF4900C07661 /* Debug */,
+				4600470323C5CF4900C07661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46D4649A23C5BBC70060BAFB /* Build configuration list for PBXProject "YZSiriLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46D464FB23C5BBC70060BAFB /* Debug */,
+				46D464FC23C5BBC70060BAFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46D464FD23C5BBC70060BAFB /* Build configuration list for PBXNativeTarget "YZSiriLightDylib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46D464FE23C5BBC70060BAFB /* Debug */,
+				46D464FF23C5BBC70060BAFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46D4650023C5BBC70060BAFB /* Build configuration list for PBXNativeTarget "YZSiriLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46D4650123C5BBC70060BAFB /* Debug */,
+				46D4650223C5BBC70060BAFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46D4654323C5BEA60060BAFB /* Build configuration list for PBXNativeTarget "LightExt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46D4654423C5BEA60060BAFB /* Debug */,
+				46D4654523C5BEA60060BAFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46D4649723C5BBC70060BAFB /* Project object */;
+}
