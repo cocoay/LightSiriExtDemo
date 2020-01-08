@@ -13,7 +13,6 @@
 		4600470623C5CF8100C07661 /* LightKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 460046FC23C5CF4900C07661 /* LightKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4600470923C5CF8700C07661 /* LightKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 460046FC23C5CF4900C07661 /* LightKit.framework */; };
 		4600470A23C5CF8700C07661 /* LightKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 460046FC23C5CF4900C07661 /* LightKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		4600470D23C5D34200C07661 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 46D4652923C5BDFB0060BAFB /* Intents.intentdefinition */; settings = {ATTRIBUTES = (no_codegen, ); }; };
 		4600470E23C5D34300C07661 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 46D4652923C5BDFB0060BAFB /* Intents.intentdefinition */; settings = {ATTRIBUTES = (no_codegen, ); }; };
 		4600470F23C5D51B00C07661 /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4623A40D23C5CC84007CB706 /* Intents.framework */; };
 		4600471023C5D5BB00C07661 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 46D4652923C5BDFB0060BAFB /* Intents.intentdefinition */; settings = {ATTRIBUTES = (no_codegen, ); }; };
@@ -673,7 +672,6 @@
 				46D464E623C5BBC70060BAFB /* OCSelectorTrampolines.mm in Sources */,
 				46D464D623C5BBC70060BAFB /* a1a2-selectortramps-i386.s in Sources */,
 				46D464DC23C5BBC70060BAFB /* a2a3-selectortramps-i386.s in Sources */,
-				4600470D23C5D34200C07661 /* Intents.intentdefinition in Sources */,
 				46D464DA23C5BBC70060BAFB /* a2a3-selectortramps-arm.s in Sources */,
 				46D464C223C5BBC70060BAFB /* YZSiriLightDylib.mm in Sources */,
 				46D464EC23C5BBC70060BAFB /* LLDBTools.mm in Sources */,

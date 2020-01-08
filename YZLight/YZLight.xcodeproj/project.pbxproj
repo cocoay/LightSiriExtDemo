@@ -7,30 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		46D4651123C5BC730060BAFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D4651023C5BC730060BAFB /* AppDelegate.m */; };
-		46D4651723C5BC730060BAFB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D4651623C5BC730060BAFB /* ViewController.m */; };
-		46D4651A23C5BC730060BAFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46D4651823C5BC730060BAFB /* Main.storyboard */; };
-		46D4651C23C5BC740060BAFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46D4651B23C5BC740060BAFB /* Assets.xcassets */; };
-		46D4651F23C5BC740060BAFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46D4651D23C5BC740060BAFB /* LaunchScreen.storyboard */; };
-		46D4652223C5BC740060BAFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D4652123C5BC740060BAFB /* main.m */; };
+		46E39F4B23C5EB8800DBFB58 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E39F4A23C5EB8800DBFB58 /* AppDelegate.m */; };
+		46E39F4E23C5EB8800DBFB58 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E39F4D23C5EB8800DBFB58 /* ViewController.m */; };
+		46E39F5123C5EB8800DBFB58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46E39F4F23C5EB8800DBFB58 /* Main.storyboard */; };
+		46E39F5323C5EB8900DBFB58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46E39F5223C5EB8900DBFB58 /* Assets.xcassets */; };
+		46E39F5623C5EB8900DBFB58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46E39F5423C5EB8900DBFB58 /* LaunchScreen.storyboard */; };
+		46E39F5923C5EB8900DBFB58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E39F5823C5EB8900DBFB58 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		46D4650C23C5BC730060BAFB /* YZLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YZLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		46D4650F23C5BC730060BAFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		46D4651023C5BC730060BAFB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		46D4651523C5BC730060BAFB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		46D4651623C5BC730060BAFB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		46D4651923C5BC730060BAFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		46D4651B23C5BC740060BAFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		46D4651E23C5BC740060BAFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		46D4652023C5BC740060BAFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		46D4652123C5BC740060BAFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		46D4652823C5BDA30060BAFB /* YZLight.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = YZLight.entitlements; sourceTree = "<group>"; };
+		46E39F4623C5EB8800DBFB58 /* YZLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YZLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46E39F4923C5EB8800DBFB58 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		46E39F4A23C5EB8800DBFB58 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		46E39F4C23C5EB8800DBFB58 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		46E39F4D23C5EB8800DBFB58 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		46E39F5023C5EB8800DBFB58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46E39F5223C5EB8900DBFB58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46E39F5523C5EB8900DBFB58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		46E39F5723C5EB8900DBFB58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46E39F5823C5EB8900DBFB58 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		46D4650923C5BC730060BAFB /* Frameworks */ = {
+		46E39F4323C5EB8800DBFB58 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,35 +39,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		46D4650323C5BC730060BAFB = {
+		46E39F3D23C5EB8800DBFB58 = {
 			isa = PBXGroup;
 			children = (
-				46D4650E23C5BC730060BAFB /* YZLight */,
-				46D4650D23C5BC730060BAFB /* Products */,
+				46E39F4823C5EB8800DBFB58 /* YZLight */,
+				46E39F4723C5EB8800DBFB58 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		46D4650D23C5BC730060BAFB /* Products */ = {
+		46E39F4723C5EB8800DBFB58 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				46D4650C23C5BC730060BAFB /* YZLight.app */,
+				46E39F4623C5EB8800DBFB58 /* YZLight.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		46D4650E23C5BC730060BAFB /* YZLight */ = {
+		46E39F4823C5EB8800DBFB58 /* YZLight */ = {
 			isa = PBXGroup;
 			children = (
-				46D4652823C5BDA30060BAFB /* YZLight.entitlements */,
-				46D4650F23C5BC730060BAFB /* AppDelegate.h */,
-				46D4651023C5BC730060BAFB /* AppDelegate.m */,
-				46D4651523C5BC730060BAFB /* ViewController.h */,
-				46D4651623C5BC730060BAFB /* ViewController.m */,
-				46D4651823C5BC730060BAFB /* Main.storyboard */,
-				46D4651B23C5BC740060BAFB /* Assets.xcassets */,
-				46D4651D23C5BC740060BAFB /* LaunchScreen.storyboard */,
-				46D4652023C5BC740060BAFB /* Info.plist */,
-				46D4652123C5BC740060BAFB /* main.m */,
+				46E39F4923C5EB8800DBFB58 /* AppDelegate.h */,
+				46E39F4A23C5EB8800DBFB58 /* AppDelegate.m */,
+				46E39F4C23C5EB8800DBFB58 /* ViewController.h */,
+				46E39F4D23C5EB8800DBFB58 /* ViewController.m */,
+				46E39F4F23C5EB8800DBFB58 /* Main.storyboard */,
+				46E39F5223C5EB8900DBFB58 /* Assets.xcassets */,
+				46E39F5423C5EB8900DBFB58 /* LaunchScreen.storyboard */,
+				46E39F5723C5EB8900DBFB58 /* Info.plist */,
+				46E39F5823C5EB8900DBFB58 /* main.m */,
 			);
 			path = YZLight;
 			sourceTree = "<group>";
@@ -76,13 +74,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		46D4650B23C5BC730060BAFB /* YZLight */ = {
+		46E39F4523C5EB8800DBFB58 /* YZLight */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 46D4652523C5BC740060BAFB /* Build configuration list for PBXNativeTarget "YZLight" */;
+			buildConfigurationList = 46E39F5C23C5EB8900DBFB58 /* Build configuration list for PBXNativeTarget "YZLight" */;
 			buildPhases = (
-				46D4650823C5BC730060BAFB /* Sources */,
-				46D4650923C5BC730060BAFB /* Frameworks */,
-				46D4650A23C5BC730060BAFB /* Resources */,
+				46E39F4223C5EB8800DBFB58 /* Sources */,
+				46E39F4323C5EB8800DBFB58 /* Frameworks */,
+				46E39F4423C5EB8800DBFB58 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -90,24 +88,24 @@
 			);
 			name = YZLight;
 			productName = YZLight;
-			productReference = 46D4650C23C5BC730060BAFB /* YZLight.app */;
+			productReference = 46E39F4623C5EB8800DBFB58 /* YZLight.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		46D4650423C5BC730060BAFB /* Project object */ = {
+		46E39F3E23C5EB8800DBFB58 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1120;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = Cocoa;
 				TargetAttributes = {
-					46D4650B23C5BC730060BAFB = {
-						CreatedOnToolsVersion = 11.2.1;
+					46E39F4523C5EB8800DBFB58 = {
+						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 46D4650723C5BC730060BAFB /* Build configuration list for PBXProject "YZLight" */;
+			buildConfigurationList = 46E39F4123C5EB8800DBFB58 /* Build configuration list for PBXProject "YZLight" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,55 +113,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 46D4650323C5BC730060BAFB;
-			productRefGroup = 46D4650D23C5BC730060BAFB /* Products */;
+			mainGroup = 46E39F3D23C5EB8800DBFB58;
+			productRefGroup = 46E39F4723C5EB8800DBFB58 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				46D4650B23C5BC730060BAFB /* YZLight */,
+				46E39F4523C5EB8800DBFB58 /* YZLight */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		46D4650A23C5BC730060BAFB /* Resources */ = {
+		46E39F4423C5EB8800DBFB58 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46D4651F23C5BC740060BAFB /* LaunchScreen.storyboard in Resources */,
-				46D4651C23C5BC740060BAFB /* Assets.xcassets in Resources */,
-				46D4651A23C5BC730060BAFB /* Main.storyboard in Resources */,
+				46E39F5623C5EB8900DBFB58 /* LaunchScreen.storyboard in Resources */,
+				46E39F5323C5EB8900DBFB58 /* Assets.xcassets in Resources */,
+				46E39F5123C5EB8800DBFB58 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		46D4650823C5BC730060BAFB /* Sources */ = {
+		46E39F4223C5EB8800DBFB58 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46D4651723C5BC730060BAFB /* ViewController.m in Sources */,
-				46D4651123C5BC730060BAFB /* AppDelegate.m in Sources */,
-				46D4652223C5BC740060BAFB /* main.m in Sources */,
+				46E39F4E23C5EB8800DBFB58 /* ViewController.m in Sources */,
+				46E39F5923C5EB8900DBFB58 /* main.m in Sources */,
+				46E39F4B23C5EB8800DBFB58 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		46D4651823C5BC730060BAFB /* Main.storyboard */ = {
+		46E39F4F23C5EB8800DBFB58 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				46D4651923C5BC730060BAFB /* Base */,
+				46E39F5023C5EB8800DBFB58 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		46D4651D23C5BC740060BAFB /* LaunchScreen.storyboard */ = {
+		46E39F5423C5EB8900DBFB58 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				46D4651E23C5BC740060BAFB /* Base */,
+				46E39F5523C5EB8900DBFB58 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -171,7 +169,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		46D4652323C5BC740060BAFB /* Debug */ = {
+		46E39F5A23C5EB8900DBFB58 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -203,6 +201,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -229,7 +228,7 @@
 			};
 			name = Debug;
 		};
-		46D4652423C5BC740060BAFB /* Release */ = {
+		46E39F5B23C5EB8900DBFB58 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -261,6 +260,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -281,42 +281,36 @@
 			};
 			name = Release;
 		};
-		46D4652623C5BC740060BAFB /* Debug */ = {
+		46E39F5D23C5EB8900DBFB58 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = YZLight/YZLight.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 6W33K7XR5B;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z639V68Z9H;
 				INFOPLIST_FILE = YZLight/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.zougefan.YZLight;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jya.YZLight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = Development_iOS_TestAll;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		46D4652723C5BC740060BAFB /* Release */ = {
+		46E39F5E23C5EB8900DBFB58 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = YZLight/YZLight.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 6W33K7XR5B;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z639V68Z9H;
 				INFOPLIST_FILE = YZLight/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.zougefan.YZLight;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jya.YZLight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = Development_iOS_TestAll;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -324,25 +318,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		46D4650723C5BC730060BAFB /* Build configuration list for PBXProject "YZLight" */ = {
+		46E39F4123C5EB8800DBFB58 /* Build configuration list for PBXProject "YZLight" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				46D4652323C5BC740060BAFB /* Debug */,
-				46D4652423C5BC740060BAFB /* Release */,
+				46E39F5A23C5EB8900DBFB58 /* Debug */,
+				46E39F5B23C5EB8900DBFB58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46D4652523C5BC740060BAFB /* Build configuration list for PBXNativeTarget "YZLight" */ = {
+		46E39F5C23C5EB8900DBFB58 /* Build configuration list for PBXNativeTarget "YZLight" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				46D4652623C5BC740060BAFB /* Debug */,
-				46D4652723C5BC740060BAFB /* Release */,
+				46E39F5D23C5EB8900DBFB58 /* Debug */,
+				46E39F5E23C5EB8900DBFB58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 46D4650423C5BC730060BAFB /* Project object */;
+	rootObject = 46E39F3E23C5EB8800DBFB58 /* Project object */;
 }
